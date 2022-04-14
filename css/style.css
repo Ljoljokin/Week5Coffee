@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Marck+Script&display=swap');
+
+body {
+  background-color: rgb(43, 168, 226); 
+  text-align: center;
+}
+
+
+.intro-image {
+  background-attachment: fixed;
+  background-image: url('../img/img1.jpg');
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-image__link a {
+  background-color:rgba(255, 235, 205, 0.687);
+  border: 2px solid beige;
+  color:rgb(42, 165, 85);
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+ transition: all 1s ease-in-out;
+}
+.intro-image__link a:hover {
+  transform: scale(1.5);
+}
+
+.intro-text {
+ height: 200px;
+ background-color: aquamarine;
+ padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+ font-size: 2rem;
+ text-transform: uppercase;
+ margin-bottom: 1rem;
+}
+
+.quality-image {
+ background-attachment: fixed;
+ background-image: url('../img/img2.jpg');
+ background-size: cover;
+ background-position: bottom;
+ height: 550px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.quality-image__link a {
+  background-color:rgba(255, 235, 205, 0.687);
+  border: 2px solid beige;
+  color:rgb(57, 174, 232);
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+  transform: scale(1.1);
+}
+
+.quality-text {
+  height: 200px;
+  background-color: rgb(115, 193, 248);
+  padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.origin-image {
+  background-attachment: fixed;
+  background-image: url('../img/img3.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.origin-image__link a {
+  background-color:rgba(209, 171, 106, 0.582);
+  border: 2px solid beige;
+  color:rgb(159, 247, 19);
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s ease-in-out;
+}
+
+.origin-image__link a:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+ height: 150px;
+ background-color: rgba(42, 116, 245, 0.594);
+ color: rgb(8, 2, 14);
+ font-family: 'Alex Brush', cursive;
+ font-size: 2rem;
+ text-align: center;
+}
+
+.footer ul li {
+ display: inline-block;
+ margin: 1rem;
+}
+
+.footer ul li a {
+ color: rgb(242, 152, 18);
+ text-decoration: none;
+}
+
+.footer ul li:hover {
+  color: brown;
+  transform: scale(1.3);
+}
